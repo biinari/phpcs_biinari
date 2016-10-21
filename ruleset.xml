@@ -1,0 +1,217 @@
+<?xml version="1.0"?>
+<ruleset name="Biinari Standard">
+  <description>Biinari PHP coding standard</description>
+
+  <exclude-pattern type="relative">^/tests/*</exclude-pattern>
+  <exclude-pattern type="relative">^/data/*</exclude-pattern>
+
+  <arg name="report" value="summary"/>
+  <arg value="sp"/>
+
+  <rule ref="Squiz">
+    <exclude name="Generic.Commenting.DocComment.MissingShort"/>
+    <exclude name="Generic.Commenting.DocComment.NonParamGroup"/>
+    <exclude name="Generic.Commenting.DocComment.SpacingBeforeTags"/>
+    <exclude name="Generic.Commenting.DocComment.TagValueIndent"/>
+    <exclude name="Generic.Formatting.MultipleStatementAlignment.Incorrect"/>
+    <exclude name="Generic.Formatting.MultipleStatementAlignment.NotSame"/>
+    <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
+    <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
+    <exclude name="PEAR.Functions.FunctionCallSignature.Indent"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.SingleLineNotAllowed"/>
+    <exclude name="Squiz.Classes.ClassDeclaration.MultipleClasses"/>
+    <exclude name="Squiz.Classes.ClassDeclaration.NewlinesAfterCloseBrace"/>
+    <exclude name="Squiz.Classes.ClassDeclaration.OpenBraceNewLine"/>
+    <exclude name="Squiz.Classes.ClassFileName.NoMatch"/>
+    <exclude name="Squiz.Commenting.ClassComment.TagNotAllowed"/>
+    <exclude name="Squiz.Commenting.ClosingDeclarationComment.Missing"/>
+    <exclude name="Squiz.Commenting.FileComment.AuthorTagOrder"/>
+    <exclude name="Squiz.Commenting.FileComment.CopyrightTagOrder"/>
+    <exclude name="Squiz.Commenting.FileComment.IncorrectAuthor"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingCategoryTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingCopyrightTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingLicenseTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingLinkTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingPackageTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingSubpackageTag"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingVersion"/>
+    <exclude name="Squiz.Commenting.FileComment.PackageTagOrder"/>
+    <exclude name="Squiz.Commenting.FileComment.SpacingAfterComment"/>
+    <exclude name="Squiz.Commenting.FileComment.SpacingAfterOpen"/>
+    <exclude name="Squiz.Commenting.FileComment.SubpackageTagOrder"/>
+    <exclude name="Squiz.Commenting.FunctionComment.IncorrectParamVarName"/>
+    <exclude name="Squiz.Commenting.FunctionComment.Missing"/>
+    <exclude name="Squiz.Commenting.FunctionComment.ParamCommentFullStop"/>
+    <exclude name="Squiz.Commenting.FunctionComment.ScalarTypeHintMissing"/>
+    <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamName"/>
+    <exclude name="Squiz.Commenting.FunctionComment.SpacingAfterParamType"/>
+    <exclude name="Squiz.Commenting.FunctionComment.TypeHintMissing"/>
+    <exclude name="Squiz.Commenting.InlineComment.InvalidEndChar"/>
+    <exclude name="Squiz.Commenting.InlineComment.NoSpaceBefore"/>
+    <exclude name="Squiz.Commenting.InlineComment.NotCapital"/>
+    <exclude name="Squiz.Commenting.InlineComment.SpacingAfter"/>
+    <exclude name="Squiz.Commenting.LongConditionClosingComment.Missing"/>
+    <exclude name="Squiz.Commenting.PostStatementComment.Found"/>
+    <exclude name="Squiz.ControlStructures.SwitchDeclaration.BreakIndent"/>
+    <exclude name="Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak"/>
+    <exclude name="Squiz.Files.FileExtension.ClassFound"/>
+    <exclude name="Squiz.Functions.FunctionDeclarationArgumentSpacing"/>
+    <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+    <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
+    <exclude name="Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
+    <exclude name="Squiz.Operators.ComparisonOperatorUsage.ImplicitTrue"/>
+    <exclude name="Squiz.Operators.ComparisonOperatorUsage.NotAllowed"/>
+    <exclude name="Squiz.PHP.CommentedOutCode"/>
+    <exclude name="Squiz.PHP.DisallowBooleanStatement.Found"/>
+    <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound"/>
+    <exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
+    <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.LineAfterClose"/>
+    <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.NoLineAfterClose"/>
+    <exclude name="Squiz.WhiteSpace.FunctionClosingBraceSpace.SpacingBeforeClose"/>
+    <exclude name="Squiz.WhiteSpace.FunctionSpacing.After"/>
+    <exclude name="Squiz.WhiteSpace.FunctionSpacing.Before"/>
+    <exclude name="Squiz.WhiteSpace.MemberVarSpacing.Incorrect"/>
+    <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+    <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines"/>
+    <exclude name="Squiz.Commenting.ClassComment.Missing"/>
+    <exclude name="Squiz.Formatting.OperatorBracket.MissingBrackets"/>
+    <exclude name="Squiz.Commenting.FileComment.Missing"/>
+    <exclude name="Squiz.Commenting.VariableComment.Missing"/>
+    <exclude name="Zend.Files.ClosingTag.NotAllowed"/>
+    <exclude name="Generic.Commenting.Todo.CommentFound"/>
+    <exclude name="Squiz.Commenting.VariableComment.TagNotAllowed"/>
+    <exclude name="Squiz.Commenting.VariableComment.VarOrder"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.DoubleArrowNotAligned"/>
+    <exclude name="Squiz.ControlStructures.ElseIfDeclaration.NotAllowed"/>
+    <exclude name="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
+    <exclude name="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps"/>
+    <exclude name="Squiz.NamingConventions.ValidFunctionName.NotCamelCaps"/>
+    <exclude name="Squiz.PHP.DisallowInlineIf.Found"/>
+    <exclude name="Squiz.PHP.DisallowComparisonAssignment.AssignedComparison"/>
+    <exclude name="Squiz.ControlStructures.InlineIfDeclaration.NoBrackets"/>
+    <exclude name="Generic.Strings.UnnecessaryStringConcat.Found"/>
+
+    <!-- Duplicate results -->
+    <exclude name="Squiz.Arrays.ArrayDeclaration.NotLowerCase"/>
+    <!-- END: Duplicate results -->
+
+    <!-- TODO: Enable these rules -->
+    <exclude name="Generic.CodeAnalysis.UnusedFunctionParameter.Found"/>
+    <exclude name="Generic.ControlStructures.InlineControlStructure.NotAllowed"/>
+    <exclude name="Generic.Files.LineLength"/>
+    <exclude name="PEAR.ControlStructures.MultiLineCondition.SpaceBeforeOpenBrace"/>
+    <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/>
+    <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
+    <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
+    <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/>
+    <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
+    <exclude name="Squiz.Commenting.FunctionCommentThrowTag.Missing"/>
+    <exclude name="Squiz.Commenting.VariableComment.IncorrectVarType"/>
+    <exclude name="Squiz.Commenting.VariableComment.MissingVar"/>
+    <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseBrace"/>
+    <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
+    <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
+    <exclude name="Squiz.ControlStructures.SwitchDeclaration.DefaultNoBreak"/>
+    <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingBeforeClose"/>
+    <exclude name="Squiz.WhiteSpace.LanguageConstructSpacing.Incorrect"/>
+    <exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
+    <exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
+    <exclude name="Squiz.WhiteSpace.FunctionOpeningBraceSpace.SpacingAfter"/>
+    <exclude name="Generic.CodeAnalysis.EmptyStatement.DetectedELSE"/>
+    <exclude name="Squiz.Scope.MethodScope.Missing"/>
+    <exclude name="Squiz.PHP.NonExecutableCode.Unreachable"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.FirstIndexNoNewline"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNewLine"/>
+    <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
+    <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/>
+    <exclude name="PEAR.Functions.FunctionCallSignature.MultipleArguments"/>
+    <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned"/>
+    <exclude name="Squiz.PHP.DisallowMultipleAssignments.Found"/>
+    <exclude name="Squiz.Commenting.VariableComment.WrongStyle"/>
+    <exclude name="Squiz.PHP.EmbeddedPhp.SpacingBefore"/>
+    <!-- END: Enable the above rules -->
+  </rule>
+
+  <rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+  <rule ref="Generic.Commenting.Todo"/>
+  <rule ref="Generic.ControlStructures.InlineControlStructure"/>
+
+  <!--
+  <rule ref="Generic.Files.LineLength">
+    <properties>
+      <property name="lineLimit" value="90"/>
+      <property name="absoluteLineLimit" value="100"/>
+    </properties>
+  </rule>
+  -->
+
+  <rule ref="Generic.Files.LineEndings">
+    <properties>
+      <property name="eolChar" value="\n"/>
+    </properties>
+  </rule>
+
+  <!--
+    Boolean values should be specified by using the strings
+    "true" and "false" rather than the integers 0 and 1.
+  -->
+  <rule ref="Generic.Formatting.MultipleStatementAlignment">
+    <properties>
+      <property name="maxPadding" value="8"/>
+      <property name="ignoreMultiLine" value="true"/>
+      <property name="error" value="true"/>
+    </properties>
+  </rule>
+
+  <!--
+    Array values are specified by using a string
+    representation of the array.
+  -->
+  <rule ref="Squiz.PHP.ForbiddenFunctions">
+    <properties>
+      <property name="forbiddenFunctions" type="array" value="sizeof=>count,delete=>unset,create_function=>null" />
+      <!-- TODO: Set these params instead
+      <property name="forbiddenFunctions" type="array" value="sizeof=>count,delete=>unset,print=>echo,create_function=>null" />
+      -->
+    </properties>
+  </rule>
+
+  <!--
+    If you want to completely disable an error message in a sniff
+    but you don't want to exclude the whole sniff, you can
+    change the severity of the message to 0. In this case, we
+    want the Squiz DoubleQuoteUsage sniff to be included in our
+    standard, but we don't want the ContainsVar error message to
+    ever be displayed.
+  -->
+  <rule ref="Squiz.Strings.DoubleQuoteUsage.ContainsVar">
+    <severity>0</severity>
+  </rule>
+
+  <!--
+    There is a special internal error message produced by PHP_CodeSniffer
+    when it is unable to detect code in a file, possible due to
+    the use of short open tags even though php.ini disables them.
+    You can disable this message in the same way as sniff messages.
+
+    Again, the code here will be displayed in the PHP_CodeSniffer
+    output when using the -s command line argument while checking a file.
+  -->
+  <rule ref="Internal.NoCodeFound">
+    <severity>0</severity>
+  </rule>
+
+  <!--
+    You can hard-code ignore patterns for specific sniffs,
+    a feature not available on the command line. Please note that
+    all sniff-specific ignore patterns are checked using absolute paths.
+
+    The code here will hide all messages from the Squiz DoubleQuoteUsage
+    sniff for files that match either of the two exclude patterns.
+  -->
+  <rule ref="Squiz.Strings.DoubleQuoteUsage">
+    <exclude-pattern>*/tests/*</exclude-pattern>
+    <exclude-pattern>*/data/*</exclude-pattern>
+  </rule>
+</ruleset>
