@@ -104,11 +104,11 @@
     <exclude name="Squiz.Operators.ComparisonOperatorUsage.NotAllowed"/>
     <exclude name="Squiz.PHP.CommentedOutCode"/>
     <exclude name="Squiz.PHP.DisallowBooleanStatement.Found"/>
+    <exclude name="Squiz.PHP.DisallowComparisonAssignment.AssignedBool"/>
     <exclude name="Squiz.PHP.DisallowComparisonAssignment.AssignedComparison"/>
     <exclude name="Squiz.PHP.DisallowInlineIf.Found"/>
     <exclude name="Squiz.PHP.GlobalKeyword.NotAllowed"/>
     <exclude name="Squiz.PHP.Heredoc.NotAllowed"/>
-    <exclude name="Squiz.PHP.DisallowComparisonAssignment.AssignedBool"/>
     <exclude name="Squiz.Strings.ConcatenationSpacing.PaddingFound"/>
     <exclude name="Squiz.Strings.DoubleQuoteUsage.NotRequired"/>
     <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.LineAfterClose"/>
