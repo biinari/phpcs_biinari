@@ -95,6 +95,7 @@
     <exclude name="Squiz.NamingConventions.ValidFunctionName.NotCamelCaps"/>
     <exclude name="Squiz.NamingConventions.ValidFunctionName.PrivateNoUnderscore"/>
     <exclude name="Squiz.NamingConventions.ValidFunctionName.PublicUnderscore"/>
+    <exclude name="Squiz.NamingConventions.ValidFunctionName.ScopeNotCamelCaps"/>
     <exclude name="Squiz.NamingConventions.ValidVariableName.NotCamelCaps"/>
     <exclude name="Squiz.NamingConventions.ValidVariableName.PrivateNoUnderscore"/>
     <exclude name="Squiz.NamingConventions.ValidVariableName.StringNotCamelCaps"/>
@@ -138,6 +139,7 @@
     <exclude name="Squiz.Arrays.ArrayDeclaration.CloseBraceNotAligned"/>
     <exclude name="Squiz.Arrays.ArrayDeclaration.FirstIndexNoNewline"/>
     <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned"/>
+    <exclude name="Squiz.Classes.ValidClassName.NotCamelCaps"/>
     <exclude name="Squiz.Commenting.EmptyCatchComment.Missing"/>
     <exclude name="Squiz.Commenting.FileComment.WrongStyle"/>
     <exclude name="Squiz.Commenting.FunctionComment.ExtraParamComment"/>
