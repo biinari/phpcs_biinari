@@ -162,6 +162,7 @@
     <exclude name="Squiz.Functions.GlobalFunction.Found"/>
     <exclude name="Squiz.Functions.MultiLineFunctionDeclaration.ContentAfterBrace"/>
     <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
+    <exclude name="Squiz.NamingConventions.ValidVariableName.PublicHasUnderscore"/>
     <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned"/>
     <exclude name="Squiz.PHP.DisallowMultipleAssignments.Found"/>
     <exclude name="Squiz.PHP.DiscouragedFunctions.Discouraged"/>
