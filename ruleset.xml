@@ -9,6 +9,7 @@
   <arg value="sp"/>
 
   <rule ref="Squiz">
+    <exclude name="Generic.Arrays.DisallowLongArraySyntax.Found"/>
     <exclude name="Generic.Commenting.DocComment.MissingShort"/>
     <exclude name="Generic.Commenting.DocComment.NonParamGroup"/>
     <exclude name="Generic.Commenting.DocComment.ParamNotFirst"/>
