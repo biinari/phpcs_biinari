@@ -37,7 +37,9 @@
     <exclude name="Squiz.Commenting.BlockComment.FirstLineIndent"/>
     <exclude name="Squiz.Commenting.BlockComment.LastLineIndent"/>
     <exclude name="Squiz.Commenting.BlockComment.LineIndent"/>
+    <exclude name="Squiz.Commenting.BlockComment.NoCapital"/>
     <exclude name="Squiz.Commenting.BlockComment.NoEmptyLineAfter"/>
+    <exclude name="Squiz.Commenting.BlockComment.NoEmptyLineBefore"/>
     <exclude name="Squiz.Commenting.BlockComment.NoNewLine"/>
     <exclude name="Squiz.Commenting.BlockComment.SingleLine"/>
     <exclude name="Squiz.Commenting.ClassComment.Missing"/>
@@ -48,6 +50,7 @@
     <exclude name="Squiz.Commenting.FileComment.DuplicateAuthorTag"/>
     <exclude name="Squiz.Commenting.FileComment.IncorrectAuthor"/>
     <exclude name="Squiz.Commenting.FileComment.Missing"/>
+    <exclude name="Squiz.Commenting.FileComment.MissingAuthorTag"/>
     <exclude name="Squiz.Commenting.FileComment.MissingCategoryTag"/>
     <exclude name="Squiz.Commenting.FileComment.MissingCopyrightTag"/>
     <exclude name="Squiz.Commenting.FileComment.MissingLicenseTag"/>
@@ -136,12 +139,14 @@
     <exclude name="Squiz.Arrays.ArrayDeclaration.FirstIndexNoNewline"/>
     <exclude name="Squiz.Arrays.ArrayDeclaration.KeyNotAligned"/>
     <exclude name="Squiz.Commenting.EmptyCatchComment.Missing"/>
+    <exclude name="Squiz.Commenting.FileComment.WrongStyle"/>
     <exclude name="Squiz.Commenting.FunctionComment.ExtraParamComment"/>
     <exclude name="Squiz.Commenting.FunctionComment.InvalidReturn"/>
     <exclude name="Squiz.Commenting.FunctionComment.MissingParamComment"/>
     <exclude name="Squiz.Commenting.FunctionComment.MissingParamTag"/>
     <exclude name="Squiz.Commenting.FunctionComment.MissingReturn"/>
     <exclude name="Squiz.Commenting.FunctionComment.ParamNameNoMatch"/>
+    <exclude name="Squiz.Commenting.FunctionComment.WrongStyle"/>
     <exclude name="Squiz.Commenting.FunctionCommentThrowTag.Missing"/>
     <exclude name="Squiz.Commenting.VariableComment.IncorrectVarType"/>
     <exclude name="Squiz.Commenting.VariableComment.MissingVar"/>
@@ -164,7 +169,6 @@
     <exclude name="Squiz.WhiteSpace.LanguageConstructSpacing.Incorrect"/>
     <exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceAfter"/>
     <exclude name="Squiz.WhiteSpace.OperatorSpacing.NoSpaceBefore"/>
-    <exclude name="Squiz.Commenting.FunctionComment.WrongStyle"/>
     <!-- END: Enable the above rules -->
   </rule>
 
