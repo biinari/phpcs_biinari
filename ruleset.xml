@@ -87,6 +87,7 @@
     <exclude name="Squiz.ControlStructures.ElseIfDeclaration.NotAllowed"/>
     <exclude name="Squiz.ControlStructures.InlineIfDeclaration.NoBrackets"/>
     <exclude name="Squiz.ControlStructures.SwitchDeclaration.BreakIndent"/>
+    <exclude name="Squiz.ControlStructures.SwitchDeclaration.EmptyCase"/>
     <exclude name="Squiz.ControlStructures.SwitchDeclaration.SpacingAfterBreak"/>
     <exclude name="Squiz.Files.FileExtension.ClassFound"/>
     <exclude name="Squiz.Formatting.OperatorBracket.MissingBrackets"/>
@@ -157,6 +158,7 @@
     <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterCloseParenthesis"/>
     <exclude name="Squiz.ControlStructures.ControlSignature.SpaceAfterKeyword"/>
     <exclude name="Squiz.ControlStructures.SwitchDeclaration.DefaultNoBreak"/>
+    <exclude name="Squiz.ControlStructures.SwitchDeclaration.MissingDefault"/>
     <exclude name="Squiz.Functions.GlobalFunction.Found"/>
     <exclude name="Squiz.NamingConventions.ValidVariableName.MemberNotCamelCaps"/>
     <exclude name="Squiz.Objects.ObjectInstantiation.NotAssigned"/>
