@@ -21,6 +21,8 @@
     <exclude name="Generic.Strings.UnnecessaryStringConcat.Found"/>
     <exclude name="PEAR.ControlStructures.MultiLineCondition.Alignment"/>
     <exclude name="PEAR.ControlStructures.MultiLineCondition.StartWithBoolean"/>
+    <exclude name="PEAR.Files.IncludingFile.UseInclude"/>
+    <exclude name="PEAR.Files.IncludingFile.UseIncludeOnce"/>
     <exclude name="PEAR.Functions.FunctionCallSignature.CloseBracketLine"/>
     <exclude name="PEAR.Functions.FunctionCallSignature.ContentAfterOpenBracket"/>
     <exclude name="PEAR.Functions.FunctionCallSignature.Indent"/>
