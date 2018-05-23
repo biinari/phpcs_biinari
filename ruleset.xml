@@ -120,6 +120,7 @@
     <exclude name="Squiz.WhiteSpace.FunctionSpacing.Before"/>
     <exclude name="Squiz.WhiteSpace.MemberVarSpacing.FirstIncorrect"/>
     <exclude name="Squiz.WhiteSpace.MemberVarSpacing.Incorrect"/>
+    <exclude name="Squiz.WhiteSpace.ObjectOperatorSpacing.Before"/>
     <exclude name="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
     <exclude name="Squiz.WhiteSpace.SuperfluousWhitespace.EmptyLines"/>
     <exclude name="Zend.Files.ClosingTag.NotAllowed"/>
